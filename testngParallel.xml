@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="URL" value="https://surendrareddy1248.github.io/WebElementsTesting/"></parameter>
+	<parameter name="Url" value="https://testng.org/doc/index.html"></parameter>
+	<parameter name="URl" value="https://www.selenium.dev/"></parameter>
+  <test thread-count="3" parallel="classes" name="Test">
+    <classes>
+      <class name="parallelExecution.One"></class>
+      <class name="parallelExecution.Two"></class>
+	  <class name="parallelExecution.Three"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
